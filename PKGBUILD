@@ -2,10 +2,10 @@
 
 pkgname=vdr-vaapidevice
 pkgver=0.7.0.r205.ga17c110
-_gitver=a17c11072e7f9465f12830e6d3045956d4cb2776
-_vdrapi=2.4.0
-pkgrel=2
-pkgdesc="The plugin provides an EPG (Electronic Program Guide) similar to the built-in one, but with extra features."
+_gitver=d19657bae399e79df107e316ca40922d21393f80
+_vdrapi=2.4.1
+pkgrel=3
+pkgdesc="A VA-API output device plugin for VDR"
 url="https://github.com/pesintta/vdr-plugin-vaapidevice"
 arch=('x86_64' 'i686' )
 license=('GPL2')
@@ -15,7 +15,7 @@ source=("vdr-plugin-${_plugname}::git+https://github.com/pesintta/vdr-plugin-vaa
         "50-$_plugname.conf")
 backup=("etc/vdr/conf.avail/50-$_plugname.conf")
 sha512sums=('SKIP'
-         'SKIP')
+         'd33b7698126e39d11c1246096f99235ef20edcdecad0b40ae46d4415bf344c75c97434a495b1ad90cd7d7b52bdfe78b756a97d850224d24d06a445d7e580532f')
 
 pkgver() {
     cd "${srcdir}/vdr-plugin-${_plugname}"
