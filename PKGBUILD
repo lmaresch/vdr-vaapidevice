@@ -1,10 +1,10 @@
 # This PKGBUILD could be part of the VDR4Arch project [https://github.com/vdr4arch]
 
 pkgname=vdr-vaapidevice
-pkgver=0.7.0.r205.ga17c110
+pkgver=0.7.0.r208.gd19657b
 _gitver=d19657bae399e79df107e316ca40922d21393f80
 _vdrapi=2.4.1
-pkgrel=3
+pkgrel=1
 pkgdesc="A VA-API output device plugin for VDR"
 url="https://github.com/pesintta/vdr-plugin-vaapidevice"
 arch=('x86_64' 'i686' )
